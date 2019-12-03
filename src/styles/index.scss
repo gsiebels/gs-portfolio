@@ -1,0 +1,46 @@
+@charset "utf-8";
+// If need, change your variables before importing Bulma
+$title-color: #2e2e2e;
+@import "~bulma/bulma.sass";
+
+* {
+  color: black;
+}
+
+html {
+  background-image: url('https://images.unsplash.com/photo-1483959651481-dc75b89291f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2101&q=80');
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.top {
+  background-color: #373741c2;
+
+  .light {
+    color: white;
+  }
+}
+
+.herohold {
+  position: sticky;
+  top: -97vh;
+}
+
+.navhold {
+  position: sticky;
+  top: 0;
+}
+
+.center {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  margin: 0 150px 0px 150px;
+  width: 500px;
+
+  .name {
+    color: #87F3CA;
+  }
+}
+
