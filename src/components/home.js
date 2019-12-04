@@ -1,9 +1,11 @@
 import React from 'react'
+import logo from '../images/gslogo.svg'
 
 const Home = () => {
   return (
     <section id="home" className="home herohold top hero is-fullheight">
       <div className="hero-body">
+        <img className="gslogo" src={logo} alt="gs logo" />
         <div className="center container">
           <h1 className="light home-text">
             Hello,

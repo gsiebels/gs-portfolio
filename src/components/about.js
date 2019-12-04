@@ -18,7 +18,7 @@ const About = () => {
           </div>
         </div>
         <div className="lang">
-          <h4 className="title is-4">Technologies</h4>
+          <h4 className="title is-4"></h4>
           <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/html5/html5-plain.svg" alt="html logo" />
           <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/css3/css3-plain.svg" alt="css logo" />
           <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/sass/sass-original.svg" alt="sass logo" />
