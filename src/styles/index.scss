@@ -27,10 +27,11 @@ html {
 }
 
 .navhold {
-  background-color: #87F3CA;
+  background-color: rgba(135, 243, 202, 0.986);
   position: sticky;
   top: 0;
 }
+
 
 .navfont {
   color: #373741;
@@ -90,7 +91,7 @@ p {
   background-color:white;
   display: flex;
   flex-direction: column;
-  height: 78vh;
+  height: auto;
   align-items: center;  
 
   .text-card {
@@ -108,8 +109,7 @@ p {
     height: 330px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.342);
     border: 10px solid #87F3CA;
-    border-radius: 30px;
-    
+    border-radius: 30px;  
   }
 
   .profile {
@@ -119,10 +119,8 @@ p {
   }
 
   .lang {
-    width: 80vw;
-    height: 300px;
-    // display: flex;
-    // flex-direction: row;
+    width: auto;
+    height: auto;
     margin: 150px 70px 50px 70px;
 
     .logo {
@@ -133,7 +131,6 @@ p {
     .logo:hover {
       fill: black;
     }
-  
   }
 }
 
@@ -159,6 +156,9 @@ p {
     margin: 50px 10px 0 0;
     font-weight: 600;
   }
+  .button:hover {
+    background-color: rgba(135, 243, 202, 0.5);
+  }
 
   .title {
     margin: 20px 0 30px 0px;
@@ -167,7 +167,8 @@ p {
   }
 
   .project-info {
-    margin: 0 150px;
+    width: 70vw;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
     p {
@@ -197,3 +198,30 @@ p {
   background-color: #87F3CA;
 }
 
+@keyframes jump {
+  0% { top: 0; } 50% { top: 50px; } 100% { top: 0; }
+}
+
+
+// Button/Arrow
+#arrow-down {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  animation: jump 5s infinite;
+  padding-bottom: 30px;
+  font-weight: 900;
+  
+    i {
+      content: '\f0a8';
+      font-size: 100px;
+      transition: .3s ease-in-out;
+      color: #87F3CA;
+      margin: 0 100px;
+
+  }
+    i:hover {
+      opacity: 0.7;
+      transition: .3s ease-in-out;
+  }
+}
