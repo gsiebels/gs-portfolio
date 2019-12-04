@@ -8,7 +8,7 @@ const Contact = () => {
         <hr/>
       </div>
       <div className="contact">
-        <a href=""></a>
+        <a href=""><img /></a>
       </div>
     </section>
   )
