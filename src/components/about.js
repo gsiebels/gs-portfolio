@@ -11,7 +11,7 @@ const About = () => {
         <div className="profile">
           <img className="pic" src="https://raw.githubusercontent.com/gsiebels/gs-portfolio/master/pict20191202_121715_0.jpeg" alt="gerardos profile picture"/>
           <div className="text-card">
-            <h4 className="title">Persobal Bio</h4>
+            <h4 className="title">Personal Bio</h4>
             <p>
               Having enjoyed working in the tech industry for the past 5 years, I decided to make the leap into software development by enrolling in General Assembly’s Software Engineering Immersive course. I immediately felt well-suited to coding and the industry as I enjoy the problem-solving involved, the constant learning and the very helpful community. I am looking forward to what will come next.
             </p>
