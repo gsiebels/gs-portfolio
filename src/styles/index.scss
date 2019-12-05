@@ -3,7 +3,7 @@
 $title-color: #2e2e2e;
 @import "~bulma/bulma.sass";
 
-html {
+main {
   background-image: url('https://images.unsplash.com/photo-1483959651481-dc75b89291f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2101&q=80');
   background-repeat: none;
   background-size: cover;
@@ -257,67 +257,88 @@ p {
 
 
 // ====== MEDIA QUERY ======
-@media only screen and (max-width: 600px) {
-  body {
-    width: 657px;
-  }
-  // .center {
-  //   padding-top: ;
+@media screen and (max-width: 700px) {
+
+  // .gr__localhost {
+  //   width: 405px;
   // }
+  main {
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
   .home {
-    // height: 1168px;
-    height: 175vh;
+    .hero-body {
+      padding: 5px 20px;
+    .gslogo {
+      width: 40px;
+      padding-top: 0;
+    }
+  }
+    height: 100vh;
     .center {
-      margin: 200px 20px 0;
+      margin: 80px 0 0;
       .home-text {
-        font-size: 60px;
+        font-size: 30px;
       }
     }
     #arrow-down {
-      margin-left: 0px;
+      padding-bottom: 38px;
+      i {
+        font-size: 60px;
+      }
     }
   }
-  .home-text {
-    font-size: 10px;
-  }
-  .center {
-    margin: 20px;
-  }
+
   .navfont {
-    font-size: 30.5px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
   }
   .hide {
     visibility: hidden;
   }
 
   .title-back {
-    height: 250px;
+    height: 150px;
     .title {
-      font-size: 70px;
+      padding: 30px 0 0 0;
+      margin-bottom: 0;
+      font-size: 50px;
+    }
+    hr {
+      border: 2px solid #87F3CA;
+      width: 50px;
     }
   }
 
   .about {
     .profile {
       flex-direction: column;
+      margin-top: 0;
       .pic {
         align-self: center;
+        width: 200px;
+        height: 220px;
       }
       .text-card {
-        padding: 20px;
+        padding: 2px;
+        width: 300px;
         .title {
           text-align: center;
-          font-size: 40px;
+          font-size: 25px;
         }
         p {
-          font-size: 25px;
+          font-size: 18px;
           text-align: center;
         }
       }
     }
     .lang {
-      margin: 10px 75px 70px;
+      .logo {
+        width: 50px;
+      }
+      margin: 10px 40px 30px;
       
     }
   }
@@ -326,7 +347,7 @@ p {
     .project{
       .project-info {
         flex-direction: column-reverse;
-        width: 500px;
+        width: 330px;
         align-items: center;
         .project-image {
           margin: 0; 
@@ -337,7 +358,7 @@ p {
           }  
           p {
             text-align: center;
-            font-size: 25px;
+            font-size: 20px;
           }
           .buttons {
             margin-top: 20px;
@@ -346,15 +367,28 @@ p {
             align-items: center;
             .button {
               margin: 10px;
-              width: 300px;
-              height: 60px;
+              width: 250px;
+              height: 50px;
               font-size: 25px;
             }
             .link {
-              width: 45px;
+              width: 40px;
             }
           }
         }
+      }
+    }
+  }
+  .contacts {
+    height: 200px;
+    .contact {
+      padding:  0;
+      width: 375px;
+      a {
+        margin: 20px;
+      }
+      .contact-image {
+        width: 50px;
       }
     }
   }

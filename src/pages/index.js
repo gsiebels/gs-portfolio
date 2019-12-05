@@ -11,14 +11,14 @@ import '../styles/index.scss'
 
 const App = () => {
   return (
-    <>
+    <main>
       <Home />
       <Navbar />
       <About />
       <Projects />
       <Contact />
       <Footer />
-    </>
+    </main>
   )
 }
 
