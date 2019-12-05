@@ -3,8 +3,8 @@ import logo from '../images/gslogo.svg'
 
 const Home = () => {
   return (
-    <section id="home" className="home herohold top hero is-fullheight">
-      <div className="hero-body">
+    <section id="home" className="home">
+      <div className="hero-body is-mobile">
         <img className="gslogo" src={logo} alt="gs logo" />
         <div className="center container">
           <h1 className="light home-text">
