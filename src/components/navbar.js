@@ -10,8 +10,8 @@ const Navbar = () => {
             <li><a className="navfont" href="#about">About</a></li>
             <li><a className="navfont" href="#projects">Projects</a></li>
             <li><a className="navfont" href="#contact">Contact</a></li>
-            <li><a className="navfont" href="https://github.com/gsiebels">GitHub</a></li>
-            <li><a className="navfont" href="https://www.linkedin.com/in/gerardosiebels/">Linkedin</a></li>
+            <li><a className="hide navfont" href="https://github.com/gsiebels">GitHub</a></li>
+            <li><a className="hide navfont" href="https://www.linkedin.com/in/gerardosiebels/">Linkedin</a></li>
           </ul>
         </div>
       </nav>
