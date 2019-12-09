@@ -157,15 +157,36 @@ p {
     display: flex;
     flex-direction: row;
   }
-
-  .lang {
-    width: auto;
-    height: auto;
+  .technologies {
+    display: flex;
+    flex-direction: column;
     margin: 150px 70px 50px 70px;
-
-    .logo {
-      width: 80px;
-      margin: 10px;
+    .title {
+      text-align: center;
+      margin-bottom: 60px;
+      color: #373741;
+    }
+    .lang {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 70vw;
+      .logo-and-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px;
+        .logo {
+          width: 70px;
+          margin: 10px;
+        } 
+        .logos-name {
+         font-size: 15px;
+         font-weight: 600;
+         color: #3737419a;
+        }
+      } 
     }
   }
 }
@@ -189,13 +210,28 @@ p {
     height: auto;
   }
 
-  .button {
+  .p-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #87F3CA;
-    margin: 50px 10px 0 0;
+    color: black;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 17px;
     font-weight: 600;
+    border: 1px solid #c0c0c0;
+    margin: 30px 10px 30px 0;
+    .link {
+       width: 30px;
+    }
   }
-  .button:hover {
+
+  .p-button:hover {
     background-color: rgba(135, 243, 202, 0.5);
+    border: 1px solid #8d8d8d;
   }
 
   .title {
@@ -257,6 +293,7 @@ p {
 
 
 // ====== MEDIA QUERY ======
+
 @media screen and (max-width: 700px) {
 
   main {
@@ -331,12 +368,20 @@ p {
         }
       }
     }
-    .lang {
-      .logo {
-        width: 50px;
+    .technologies{
+      margin: 70px 0 50px 0;
+      .title{
+      margin-bottom: 20px;
       }
-      margin: 10px 40px 30px;
-      
+      .lang {
+        display: flex;
+        justify-content: center;
+        .logo-and-name {
+          width: 50px;
+        }
+
+        
+      } 
     }
   }
 
@@ -362,14 +407,22 @@ p {
             display: flex;
             flex-direction: column;
             align-items: center;
-            .button {
-              margin: 10px;
+            .p-button {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #87F3CA;
+              color: black;
               width: 250px;
               height: 50px;
+              border-radius: 5px;
+              margin: 20px 0 0 0;
               font-size: 25px;
-            }
-            .link {
-              width: 40px;
+              font-weight: 600;
+              border: 1px solid #bdbdbd;
+              .link {
+                 width: 40px;
+              }
             }
           }
         }

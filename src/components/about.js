@@ -17,23 +17,71 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="lang">
-          <h4 className="title is-4"></h4>
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/html5/html5-plain.svg" alt="html logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/css3/css3-plain.svg" alt="css logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/sass/sass-original.svg" alt="sass logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python logo"/>
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/django/django-original.svg" alt="django logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/git/git-original-wordmark.svg" alt="git logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/github/github-original-wordmark.svg" alt="github logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/heroku/heroku-original-wordmark.svg" alt="heroku logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/express/express-original.svg" alt="express logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/mocha/mocha-plain.svg" alt="mocha logo" />
-          <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/postgresql/postgresql-plain.svg" alt="sql logo" />
+
+        <div className="technologies">
+        <h4 className="title">Technologies</h4>
+          <div className="lang">
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/html5/html5-plain.svg" alt="html logo" />
+              <p className="logos-name">HTML5</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/css3/css3-plain.svg" alt="css logo" />
+              <p className="logos-name">CSS3</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/sass/sass-original.svg" alt="sass logo" />
+              <p className="logos-name">SASS</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript logo" />
+              <p className="logos-name">JavaScript</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react logo" />
+              <p className="logos-name">ReactJS</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs logo" />
+              <p className="logos-name">NodeJS</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb logo" />
+              <p className="logos-name">MongoDB</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python logo"/>
+              <p className="logos-name">Python</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/django/django-original.svg" alt="django logo" />
+              <p className="logos-name">Django</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/git/git-original-wordmark.svg" alt="git logo" />
+              <p className="logos-name">Git</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/github/github-original-wordmark.svg" alt="github logo" />
+              <p className="logos-name">GitHub</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/heroku/heroku-original-wordmark.svg" alt="heroku logo" />
+              <p className="logos-name">Heroku</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/express/express-original.svg" alt="express logo" />
+              <p className="logos-name">Express</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/mocha/mocha-plain.svg" alt="mocha logo" />
+              <p className="logos-name">Mocha</p>
+            </div>
+            <div className="logo-and-name">
+              <img className="logo" src="https://konpa.github.io/devicon/devicon.git/icons/postgresql/postgresql-plain.svg" alt="sql logo" />
+              <p className="logos-name">PostgreSQL</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
