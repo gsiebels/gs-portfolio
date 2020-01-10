@@ -83,6 +83,14 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div className="interests">
+          <h4 className="title">Interests</h4>
+          <p>
+          I am interested in a healthy lifestyle, having a good diet and exercising witch involves swimming and going for long walks.<br/> 
+          I am also a gamer 🎮. I like playing online competitive games like Call Of Duty, Apex Legends, Fortnite, Mario Kart, Super Smash Bros, as well as indie games like BroForce, My Friend Pedro and more. <br/>
+          Wath ever I do, I always try to have fun.
+          </p>
+        </div>
       </div>
     </section>
   )

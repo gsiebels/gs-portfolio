@@ -17,7 +17,7 @@
   "dependencies": {
     "bulma": "^0.8.0",
     "gatsby": "^2.18.4",
-    "gatsby-cli": "^2.8.16",
+    "gatsby-cli": "^2.8.26",
     "gatsby-plugin-manifest": "^2.2.31",
     "gatsby-plugin-sass": "^2.1.24",
     "gatsby-remark-bulma": "^1.0.1",
