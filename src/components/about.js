@@ -9,7 +9,10 @@ const About = () => {
       </div>
       <div className="about">
         <div className="profile">
+          <div className ="photo-section">
           <img className="pic" src="https://raw.githubusercontent.com/gsiebels/gs-portfolio/master/pict20191202_121715_0.jpeg" alt="gerardos profile picture"/>
+          <a href="https://www.codewars.com/users/Gerard0"><img className="codewars" src="https://www.codewars.com/users/Gerard0/badges/small" alt="My codewars status" /></a>
+          </div>
           <div className="text-card">
             <h4 className="title">Personal Bio</h4>
             <p>

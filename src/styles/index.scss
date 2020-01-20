@@ -159,6 +159,16 @@ p {
     display: flex;
     flex-direction: row;
   }
+
+  .photo-section{
+    display: flex;
+    flex-direction: column;
+    .codewars {
+      padding-top: 30px;
+      -webkit-filter: drop-shadow(2px 7px 5px rgba(0, 0, 0, 0.342));
+    }
+  }
+
   .technologies {
     display: flex;
     flex-direction: column;
@@ -395,7 +405,7 @@ p {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 80%;
+      width: 50%;
       padding: 50px 0 100px 0;
       text-align: center;
     }
